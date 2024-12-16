@@ -1,0 +1,1 @@
+This bug occurs when using the Expo Camera API with custom resolutions.  The issue arises when attempting to set a resolution that is not natively supported by the device's camera.  This doesn't throw an explicit error, instead, the camera preview either remains black or shows a distorted image. The `Camera` component doesn't provide feedback about unsupported resolutions.
